@@ -1,0 +1,102 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-11-12 01:06+0330\n"
+"PO-Revision-Date: 2023-11-12 01:10+0330\n"
+"Last-Translator:   <alivalizade@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Translated-Using: django-rosetta 0.9.9\n"
+
+#: .\models.py:13
+msgid "Product Image"
+msgstr "تصویر کالا"
+
+#: .\models.py:16
+msgid "Date time of creation"
+msgstr "تاریخ ایجاد"
+
+#: .\models.py:33
+msgid "Very Bad"
+msgstr "خیلی بد"
+
+#: .\models.py:34
+msgid "Bad"
+msgstr "بد"
+
+#: .\models.py:35
+msgid "Normal"
+msgstr "معمولی"
+
+#: .\models.py:36
+msgid "Good"
+msgstr "خوب"
+
+#: .\models.py:37
+msgid "Perfect"
+msgstr "عالی"
+
+#: .\models.py:44
+msgid "Comment author"
+msgstr "نویسنده ی نظر"
+
+#: .\models.py:46
+msgid "Comment text"
+msgstr "متن نظر"
+
+#: .\models.py:47
+msgid "Your score?"
+msgstr "امتیاز شما"
+
+#: .\templates\products\product_detail.html:33
+#: .\templates\products\product_detail.html:35
+#: .\templates\products\product_list.html:56
+#: .\templates\products\product_list.html:59
+msgid "$"
+msgstr "ریال"
+
+#: .\templates\products\product_detail.html:46
+msgid "Add to cart"
+msgstr "افزودن به سبد خرید"
+
+#: .\templates\products\product_detail.html:67
+msgid "Product descriptions"
+msgstr "توضیحات محصول"
+
+#: .\templates\products\product_detail.html:141
+msgid "Write your comment"
+msgstr "نظر خود را بنویسید"
+
+#: .\templates\products\product_detail.html:146
+msgid "Submit"
+msgstr "ارسال"
+
+#: .\templates\products\product_detail.html:150
+msgid "To write your comment please login"
+msgstr "لطفا برای نوشتن نظر وارد شوید: "
+
+#: .\templates\products\product_detail.html:151
+msgid "Login"
+msgstr "ورود"
+
+#: .\templates\products\product_list.html:49
+msgid "Special Off"
+msgstr "تخفیف ویژه"
+
+#: .\templates\products\product_list.html:62
+msgid "Add to Cart"
+msgstr "افزودن به سبد خرید"
+
+#: .\views.py:45
+msgid "Comment successfully created."
+msgstr "نظر با موفقیت ایجاد شد"

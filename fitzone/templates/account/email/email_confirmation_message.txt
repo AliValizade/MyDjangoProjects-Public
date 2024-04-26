@@ -1,0 +1,13 @@
+{% extends "_base.html" %}
+{% load account %}
+{% user_display user as user_display %}
+{% load i18n %}
+{% autoescape off %}
+{% block content %}
+{% blocktrans with site_name=current_site.name site_domain=current_site.domain %}
+You're receiving this email because user {{ user_display }} has given your email address to register an account on {{ site_domain }}.
+
+To confirm this is correct, go to {{ activate_url }}
+{% endblocktrans %}
+{% endblock content %}
+{% endautoescape %}
